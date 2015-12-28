@@ -1,7 +1,7 @@
 wtpa2-python
 ============
 
-python implementation of the WTPA2 sample packer/extractor
+python2 implementation of the WTPA2 sample packer/extractor
 
 Commands take the form of ``python wtpa2.py COMMAND ARGUMENTS``
 
@@ -19,3 +19,4 @@ Here are some example uses:
     python wtpa2.py extract samples.bin samples/
     python wtpa2.py extract --slots 8 /dev/sdc samples/
 
+where `python` points to a python2 interpreter.
